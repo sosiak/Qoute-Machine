@@ -1,38 +1,44 @@
-.body {
-	background: #2980b9;
+body {
+	background-image: url('http://i67.tinypic.com/jsoqk5.jpg');
+	background-size: cover;
+	padding: 10px;
+}
+body h1 {
 	color: white;
 	text-align: center;
-	padding: 5px;
+	margin-bottom: 20px;
 }
-.quote {
-	margin: 100px 0 20px 0;
-	padding: 10px 30px;
-	border: solid white 2px;
-	display: inline-block;
-	border-radius: 5px;
+#search {
+	background: #e67e22;
+	color: #fff;
+	border: 0;
+	padding: 5px 10px;
 }
-.author {
+#search:hover {
+	color: #c0392b;
+}
+#country-name {
+	padding: 3px;
+	padding-left: 15px;
+}
+body h2 {
+	color: white;
+}
+#countries {
+	color: white;
+}
+#countries li {
+	font-size: 26px;
+	font-weight: bold;
+	list-style-type: none;
+	text-align: center;
+	padding-top: 30px;
+}
+.country-left {
+	background: #3498db;
 	font-weight: bold;
 }
-.trigger {
-	padding: 5px 20px;
-	border: solid white 2px;
-	margin: 20px 0;
-	border-radius: 5px;
-	background: #2980b9;
-}
-.trigger:hover {
-	background: #e74c3c;
-}
-.tweet {
-	display: inline-block;
-	border: solid white 2px;
-	border-radius: 5px;
-	padding: 5px 20px;
-	color: white;
-}
-.tweet:hover {
-	text-decoration: none;
-	background: #e74c3c;
-	color: white;
+.country-right {
+	background: #27ae60;
+	font-weight: bold;
 }
